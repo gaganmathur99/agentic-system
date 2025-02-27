@@ -1,2 +1,2 @@
 # agentic-system
-This repo contains the collection of demo notebook of agents. 
+This repository contains a collection of notebooks documenting my learning journey on agents, including demos, experiments, and implementations.
