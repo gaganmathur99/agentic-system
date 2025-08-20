@@ -1,0 +1,1592 @@
+{
+  "conversations": [
+    {
+      "conversation_id": "conv_001",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "Hi, I need help with my account balance."
+        },
+        {
+          "sender": "Agent",
+          "message": "Hello! I'd be happy to assist you with your account balance. Please select an option:\n1. Check current balance\n2. View recent transactions\n3. Report an issue with balance"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 1, please."
+        },
+        {
+          "sender": "Agent",
+          "message": "To proceed, please provide your account number or verify your identity by answering a security question. Would you like to provide your account number or answer a question?"
+        },
+        {
+          "sender": "Human",
+          "message": "I'll give my account number: 1234567890."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. Your current balance is $1,234.56. Would you like to know anything else, such as recent transactions or available credit?"
+        },
+        {
+          "sender": "Human",
+          "message": "That's all, thanks!"
+        },
+        {
+          "sender": "Agent",
+          "message": "You're welcome! Have a great day!"
+        }
+      ],
+      "ground_truth": "positive"
+    },
+    {
+      "conversation_id": "conv_002",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "Why is my card declined? This is ridiculous!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I'm sorry to hear you're experiencing issues with your card. Let's resolve this. Could you please select an option to narrow down the issue?\n1. Card declined during a purchase\n2. Card locked or frozen\n3. Suspected fraud"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 1. It’s so frustrating, fix it now!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I understand your frustration, and I’m here to help. To assist you further, I need your account details or card number to check the status. Alternatively, I can transfer you to a human agent for a detailed investigation. Would you prefer to provide details or speak with an agent?"
+        },
+        {
+          "sender": "Human",
+          "message": "Just transfer me, this is taking too long!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m transferring you to a human agent now. Please hold for a moment."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_003",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I want to apply for a loan."
+        },
+        {
+          "sender": "Agent",
+          "message": "Great! I can guide you through the loan application process. Please choose an option:\n1. Personal loan\n2. Home loan\n3. Auto loan\n4. Speak with a loan officer"
+        },
+        {
+          "sender": "Human",
+          "message": "Actually, never mind, I want to check my savings account balance instead."
+        },
+        {
+          "sender": "Agent",
+          "message": "No problem! I can help with that. Please provide your savings account number or answer a security question to verify your identity."
+        },
+        {
+          "sender": "Human",
+          "message": "Forget it, I’ll do it later."
+        },
+        {
+          "sender": "Agent",
+          "message": "Alright, feel free to reach out whenever you’re ready. Have a great day!"
+        }
+      ],
+      "ground_truth": "neutral"
+    },
+    {
+      "conversation_id": "conv_004",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "You guys are useless! My account is frozen, and I can’t access my money!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry to hear about the trouble with your account. Let’s get this sorted out. Could you please provide your account number or select an option to proceed?\n1. Check why account is frozen\n2. Request account unlock\n3. Speak with a human agent"
+        },
+        {
+          "sender": "Human",
+          "message": "This is stupid! Just unlock my account now!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I understand your frustration. To unlock your account, I need to verify your identity. Please provide your account number or answer a security question. Alternatively, I can transfer you to a human agent for further assistance."
+        },
+        {
+          "sender": "Human",
+          "message": "Ugh, fine, my account number is 987654321."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you for providing your account number. It appears your account was frozen due to suspicious activity. I’ve initiated a request to unlock it, which should be completed within 24 hours. You’ll receive a confirmation email soon. Would you like to set up additional security measures to prevent this in the future?"
+        },
+        {
+          "sender": "Human",
+          "message": "Whatever, just make sure it’s fixed."
+        },
+        {
+          "sender": "Agent",
+          "message": "It’s being processed, and you’ll be notified soon. If you need further assistance, feel free to reach out. Thank you!"
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_005",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need to dispute a transaction."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can help with that. Please select an option:\n1. Dispute a recent transaction\n2. Check status of an existing dispute\n3. Speak with a dispute specialist"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 1."
+        },
+        {
+          "sender": "Agent",
+          "message": "Please provide the transaction date, amount, and merchant name so I can locate it. Alternatively, I can pull up your recent transactions if you provide your account number."
+        },
+        {
+          "sender": "Human",
+          "message": "Actually, can you tell me about mortgage rates instead?"
+        },
+        {
+          "sender": "Agent",
+          "message": "Of course! I can provide information on mortgage rates. Would you like:\n1. Current fixed-rate mortgage options\n2. Adjustable-rate mortgage details\n3. To speak with a mortgage specialist?"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 1."
+        },
+        {
+          "sender": "Agent",
+          "message": "Our current fixed-rate mortgage options include:\n- 30-year fixed at 5.25%\n- 15-year fixed at 4.75%\nWould you like more details or to proceed with an application?"
+        },
+        {
+          "sender": "Human",
+          "message": "That’s all for now, thanks."
+        },
+        {
+          "sender": "Agent",
+          "message": "You’re welcome! Let me know if you have any other questions."
+        }
+      ],
+      "ground_truth": "positive"
+    },
+    {
+      "conversation_id": "conv_006",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "Why is there a $50 fee on my account? This is outrageous!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry to hear about your concern. Let’s look into this fee. Please select an option:\n1. View recent fees\n2. Dispute a fee\n3. Speak with a human agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Just get me to a human, your system is garbage!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry you feel that way. I’m transferring you to a human agent now. Please hold for a moment."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_007",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "Can you help me set up online banking?"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’d be happy to help with setting up online banking. Please choose an option:\n1. Register for online banking\n2. Troubshoot login issues\n3. Speak with a support agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 1."
+        },
+        {
+          "sender": "Agent",
+          "message": "Great! To register, please provide your account number and the email address associated with your account. I’ll send you a link to set up your online banking profile."
+        },
+        {
+          "sender": "Human",
+          "message": "Account number is 456789123, email is john.doe@example.com."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you! I’ve sent a registration link to john.doe@example.com. Please follow the instructions there to set up your online banking. Would you like me to stay on the line while you complete the process?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, I’m good. Thanks."
+        },
+        {
+          "sender": "Agent",
+          "message": "You’re welcome! Let me know if you need further assistance."
+        }
+      ],
+      "ground_truth": "positive"
+    },
+    {
+      "conversation_id": "conv_008",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I’m so mad! You charged me an overdraft fee, and I had money in my account!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry for the inconvenience. Let’s resolve this. Please select an option:\n1. Review recent transactions\n2. Dispute an overdraft fee\n3. Speak with a human agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 2, and you better fix this!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I understand your frustration. Please provide your account number and the date of the overdraft fee so I can investigate."
+        },
+        {
+          "sender": "Human",
+          "message": "Account number 1122334455, fee was on July 10th."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. I’ve reviewed your account, and it appears the overdraft fee was applied due to a pending transaction that cleared on July 10th. I’ve issued a refund for the $35 fee, which will reflect in your account within 48 hours. Would you like me to explain the transaction details?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, just make sure it doesn’t happen again."
+        },
+        {
+          "sender": "Agent",
+          "message": "I’ve noted your account to prevent similar issues. You can also enable low balance alerts in online banking. Would you like instructions to set that up?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, I’m done."
+        },
+        {
+          "sender": "Agent",
+          "message": "Alright, the refund is processed. Reach out if you need further assistance."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_009",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need to transfer money to another account."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can assist with that. Please select an option:\n1. Transfer between your accounts\n2. Transfer to another bank\n3. Speak with a transfer specialist"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 2."
+        },
+        {
+          "sender": "Agent",
+          "message": "Please provide the recipient’s bank account number, routing number, and the amount you’d like to transfer."
+        },
+        {
+          "sender": "Human",
+          "message": "Actually, can you tell me how to close my account instead?"
+        },
+        {
+          "sender": "Agent",
+          "message": "I can help with that. Closing an account requires verification and may need a human agent. Would you like to:\n1. Start the process with me\n2. Speak with a human agent\n3. Learn about account closure requirements"
+        },
+        {
+          "sender": "Human",
+          "message": "I’m done, forget it."
+        },
+        {
+          "sender": "Agent",
+          "message": "Alright, feel free to reach out when you’re ready. Have a great day!"
+        }
+      ],
+      "ground_truth": "neutral"
+    },
+    {
+      "conversation_id": "conv_010",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "Your service is terrible! Why can’t I log into my account?"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry you’re having trouble logging in. Let’s troubleshoot. Please select an option:\n1. Reset password\n2. Check account status\n3. Speak with a support agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 1, and hurry up!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’ll guide you through resetting your password. Please provide the email address or phone number associated with your account to receive a reset link."
+        },
+        {
+          "sender": "Human",
+          "message": "Email is jane.smith@example.com."
+        },
+        {
+          "sender": "Agent",
+          "message": "A password reset link has been sent to jane.smith@example.com. Please check your inbox and follow the instructions. Would you like help with anything else?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, that’s it."
+        },
+        {
+          "sender": "Agent",
+          "message": "Alright, let me know if you need further assistance. Have a great day!"
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_011",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need to update my address."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can help with that. Please provide your account number and the new address you’d like to update."
+        },
+        {
+          "sender": "Human",
+          "message": "Account number 2233445566, new address is 123 Main St, Springfield, IL 62701."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. Your address has been updated to 123 Main St, Springfield, IL 62701. You’ll receive a confirmation email shortly. Anything else I can assist with?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, that’s all."
+        },
+        {
+          "sender": "Agent",
+          "message": "Great, you’re all set! Have a wonderful day!"
+        }
+      ],
+      "ground_truth": "positive"
+    },
+    {
+      "conversation_id": "conv_012",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "Why is my payment still pending? This is a joke!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry for the inconvenience. Let’s check on your payment. Please select an option:\n1. Check payment status\n2. Report a payment issue\n3. Speak with a human agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 3, I don’t trust your bot!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m transferring you to a human agent now. Please hold for a moment."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_013",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need a new debit card."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can help with ordering a new debit card. Please select an option:\n1. Replace lost/stolen card\n2. Order a new card\n3. Speak with a support agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 1."
+        },
+        {
+          "sender": "Agent",
+          "message": "Please provide your account number and confirm if the card was lost or stolen."
+        },
+        {
+          "sender": "Human",
+          "message": "Account number 3344556677, it was stolen."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. I’ve deactivated your stolen card and ordered a replacement, which will arrive within 7-10 business days. Would you like to review recent transactions for any unauthorized charges?"
+        },
+        {
+          "sender": "Human",
+          "message": "Yes, please."
+        },
+        {
+          "sender": "Agent",
+          "message": "I’ve checked your recent transactions, and there are no unauthorized charges. Would you like me to send you a detailed transaction list or set up fraud alerts?"
+        },
+        {
+          "sender": "Human",
+          "message": "Just set up fraud alerts."
+        },
+        {
+          "sender": "Agent",
+          "message": "Fraud alerts have been enabled on your account. You’ll be notified of any suspicious activity. Anything else I can help with?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, thanks."
+        },
+        {
+          "sender": "Agent",
+          "message": "You’re welcome! Have a great day!"
+        }
+      ],
+      "ground_truth": "positive"
+    },
+    {
+      "conversation_id": "conv_014",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I want to know about credit card rewards."
+        },
+        {
+          "sender": "Agent",
+          "message": "I’d be happy to help! Please select an option:\n1. View current rewards balance\n2. Learn about rewards programs\n3. Speak with a rewards specialist"
+        },
+        {
+          "sender": "Human",
+          "message": "Actually, I want to report a lost card instead."
+        },
+        {
+          "sender": "Agent",
+          "message": "No problem. Please provide your account number and confirm if the card was lost or stolen."
+        },
+        {
+          "sender": "Human",
+          "message": "I changed my mind, I’ll call back later."
+        },
+        {
+          "sender": "Agent",
+          "message": "Alright, we’re here when you’re ready. Have a great day!"
+        }
+      ],
+      "ground_truth": "neutral"
+    },
+    {
+      "conversation_id": "conv_015",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "Your bank is the worst! My loan application was denied, and no one told me why!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry to hear about your experience. Let’s look into your loan application. Please select an option:\n1. Check application status\n2. Request a review of the denial\n3. Speak with a loan officer"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 3, and you better have answers!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m transferring you to a loan officer now. Please hold for a moment."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_016",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need to stop a payment."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can assist with stopping a payment. Please select an option:\n1. Stop a pending payment\n2. Cancel a recurring payment\n3. Speak with a support agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 1."
+        },
+        {
+          "sender": "Agent",
+          "message": "Please provide the payment date, amount, and recipient details so I can locate it."
+        },
+        {
+          "sender": "Human",
+          "message": "It was $200 to ABC Corp on July 15th."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. The $200 payment to ABC Corp scheduled for July 15th has been stopped. You’ll receive a confirmation email shortly. Anything else I can help with?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, that’s it."
+        },
+        {
+          "sender": "Agent",
+          "message": "Great, you’re all set! Have a wonderful day!"
+        }
+      ],
+      "ground_truth": "positive"
+    },
+    {
+      "conversation_id": "conv_017",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "Why is my interest rate so high? This is a rip-off!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry you’re upset about your interest rate. Let’s review your account. Please select an option:\n1. Check current loan details\n2. Explore rate reduction options\n3. Speak with a loan specialist"
+        },
+        {
+          "sender": "Human",
+          "message": "Just get me to a human, this is nonsense!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m transferring you to a loan specialist now. Please hold for a moment."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_018",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I want to open a new savings account."
+        },
+        {
+          "sender": "Agent",
+          "message": "Great! I can help you open a savings account. Please select an option:\n1. Standard savings account\n2. High-yield savings account\n3. Speak with an account specialist"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 2."
+        },
+        {
+          "sender": "Agent",
+          "message": "Our high-yield savings account offers a 2.5% annual percentage yield. To open one, please provide your full name, address, and a valid ID number."
+        },
+        {
+          "sender": "Human",
+          "message": "Actually, can you tell me about checking accounts instead?"
+        },
+        {
+          "sender": "Agent",
+          "message": "Of course! We offer several checking account options:\n1. Free checking with no monthly fees\n2. Interest-bearing checking\n3. Speak with an account specialist"
+        },
+        {
+          "sender": "Human",
+          "message": "I’ll think about it and get back to you."
+        },
+        {
+          "sender": "Agent",
+          "message": "No problem! Let me know when you’re ready. Have a great day!"
+        }
+      ],
+      "ground_truth": "neutral"
+    },
+    {
+      "conversation_id": "conv_019",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need help with a wire transfer."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can assist with a wire transfer. Please select an option:\n1. Domestic wire transfer\n2. International wire transfer\n3. Speak with a transfer specialist"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 2."
+        },
+        {
+          "sender": "Agent",
+          "message": "Please provide the recipient’s bank account number, SWIFT code, and the amount you’d like to transfer."
+        },
+        {
+          "sender": "Human",
+          "message": "Account number 9988776655, SWIFT code ABCDUS33, amount $1,000."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. The international wire transfer of $1,000 has been initiated. It may take 1-3 business days to process. You’ll receive a confirmation email with details. Anything else I can assist with?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, that’s all."
+        },
+        {
+          "sender": "Agent",
+          "message": "You’re all set! Have a great day!"
+        }
+      ],
+      "ground_truth": "positive"
+    },
+    {
+      "conversation_id": "conv_020",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "Your app is garbage! It keeps crashing when I try to log in!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry to hear about the trouble with our app. Let’s troubleshoot. Please select an option:\n1. Reset app login\n2. Report app issue\n3. Speak with a technical support agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 3, this is ridiculous!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m transferring you to a technical support agent now. Please hold for a moment."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_021",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need to increase my credit limit."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can help with a credit limit increase request. Please select an option:\n1. Submit a request\n2. Check eligibility\n3. Speak with a credit specialist"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 1."
+        },
+        {
+          "sender": "Agent",
+          "message": "Please provide your credit card number and the desired credit limit."
+        },
+        {
+          "sender": "Human",
+          "message": "Card number 1234-5678-9012-3456, I want a $10,000 limit."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. Your request for a credit limit increase to $10,000 has been submitted. You’ll receive a decision within 5-7 business days. Would you like to know more about the review process?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, I’m good."
+        },
+        {
+          "sender": "Agent",
+          "message": "Alright, you’re all set! Let me know if you need further assistance."
+        }
+      ],
+      "ground_truth": "positive"
+    },
+    {
+      "conversation_id": "conv_022",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "Why was my account charged $25? Fix this now!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry for the inconvenience. Let’s investigate the $25 charge. Please select an option:\n1. View recent fees\n2. Dispute a fee\n3. Speak with a human agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 2."
+        },
+        {
+          "sender": "Agent",
+          "message": "Please provide your account number and the date of the $25 charge."
+        },
+        {
+          "sender": "Human",
+          "message": "Account number 4455667788, charge was on July 12th."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. The $25 charge was a monthly maintenance fee due to a low balance. I can waive it as a one-time courtesy. The refund will reflect in your account within 48 hours. Would you like to set up a fee-free account option?"
+        },
+        {
+          "sender": "Human",
+          "message": "Just don’t charge me again!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’ve noted your account to avoid future fees. You can also maintain a minimum balance of $500 to waive the fee automatically. Anything else I can assist with?"
+        },
+        {
+          "sender": "Human",
+          "message": "No."
+        },
+        {
+          "sender": "Agent",
+          "message": "Alright, the refund is processed. Have a great day!"
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_023",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I want to know about investment options."
+        },
+        {
+          "sender": "Agent",
+          "message": "I’d be happy to help! Please select an option:\n1. Learn about mutual funds\n2. Explore retirement accounts\n3. Speak with an investment advisor"
+        },
+        {
+          "sender": "Human",
+          "message": "Actually, I want to check my account balance."
+        },
+        {
+          "sender": "Agent",
+          "message": "No problem! Please provide your account number or answer a security question to verify your identity."
+        },
+        {
+          "sender": "Human",
+          "message": "Never mind, I’ll do it online."
+        },
+        {
+          "sender": "Agent",
+          "message": "Alright, let me know if you need help with online banking or anything else!"
+        }
+      ],
+      "ground_truth": "neutral"
+    },
+    {
+      "conversation_id": "conv_024",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "This is a scam! My money is gone, and you’re doing nothing!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m very sorry to hear about your concern. Let’s address this immediately. Please select an option:\n1. Report unauthorized transactions\n2. Check account status\n3. Speak with a fraud specialist"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 3, and you better fix this!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m transferring you to a fraud specialist now. Please hold for a moment."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_025",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need to pay my credit card bill."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can help with that. Please select an option:\n1. Make a payment now\n2. Set up automatic payments\n3. Speak with a payment specialist"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 1."
+        },
+        {
+          "sender": "Agent",
+          "message": "Please provide your credit card number and the payment amount."
+        },
+        {
+          "sender": "Human",
+          "message": "Card number 9876-5432-1098-7654, payment of $500."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. Your $500 payment has been processed, and your new balance is $1,200. You’ll receive a confirmation email shortly. Anything else I can assist with?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, thanks."
+        },
+        {
+          "sender": "Agent",
+          "message": "You’re welcome! Have a great day!"
+        }
+      ],
+      "ground_truth": "positive"
+    },
+    {
+      "conversation_id": "conv_026",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "Why is my account locked? This is so annoying!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry for the inconvenience. Let’s resolve this. Please select an option:\n1. Verify identity to unlock account\n2. Check reason for lock\n3. Speak with a human agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 1."
+        },
+        {
+          "sender": "Agent",
+          "message": "Please provide your account number and answer a security question to verify your identity."
+        },
+        {
+          "sender": "Human",
+          "message": "Account number 5566778899, security answer is ‘Blue’."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. Your account has been unlocked. You should now be able to access it. Would you like to set up additional security features?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, just don’t lock it again!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’ve noted your account to prevent future issues. Let me know if you need further assistance."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_027",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I want to know about home equity loans."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can provide information on home equity loans. Please select an option:\n1. Learn about loan terms\n2. Check eligibility\n3. Speak with a loan officer"
+        },
+        {
+          "sender": "Human",
+          "message": "Actually, I want to dispute a charge on my account."
+        },
+        {
+          "sender": "Agent",
+          "message": "No problem. Please provide the transaction date, amount, and merchant name so I can locate it."
+        },
+        {
+          "sender": "Human",
+          "message": "Forget it, I’ll deal with it later."
+        },
+        {
+          "sender": "Agent",
+          "message": "Alright, I’m here when you’re ready. Have a great day!"
+        }
+      ],
+      "ground_truth": "neutral"
+    },
+    {
+      "conversation_id": "conv_028",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "Your bank is a disgrace! My card was declined again!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry to hear about the issue with your card. Let’s resolve it. Please select an option:\n1. Check card status\n2. Report a declined transaction\n3. Speak with a human agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 3, I’m done with this bot!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m transferring you to a human agent now. Please hold for a moment."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_029",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need to update my phone number."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can help with that. Please provide your account number and the new phone number."
+        },
+        {
+          "sender": "Human",
+          "message": "Account number 6677889900, new number is 555-123-4567."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. Your phone number has been updated to 555-123-4567. You’ll receive a confirmation email shortly. Anything else I can assist with?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, that’s all."
+        },
+        {
+          "sender": "Agent",
+          "message": "Great, you’re all set! Have a wonderful day!"
+        }
+      ],
+      "ground_truth": "positive"
+    },
+    {
+      "conversation_id": "conv_030",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "Why is my balance negative? This is unacceptable!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry to hear about your concern. Let’s check your balance. Please select an option:\n1. View recent transactions\n2. Report an issue\n3. Speak with a human agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 1."
+        },
+        {
+          "sender": "Agent",
+          "message": "Please provide your account number so I can pull up your recent transactions."
+        },
+        {
+          "sender": "Human",
+          "message": "Account number 7788990011."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. Your account shows a negative balance of -$45 due to an overdraft on July 14th. Would you like to review the transaction details or explore options to cover the overdraft?"
+        },
+        {
+          "sender": "Human",
+          "message": "Just fix it!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I can help with that. I’ve waived the overdraft fee as a courtesy, and your balance is now $0. Would you like to set up overdraft protection to avoid this in the future?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, I’m done."
+        },
+        {
+          "sender": "Agent",
+          "message": "Alright, the issue is resolved. Let me know if you need further assistance."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_031",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I want to know about business accounts."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can provide information on business accounts. Please select an option:\n1. Small business checking\n2. Business savings\n3. Speak with a business banking specialist"
+        },
+        {
+          "sender": "Human",
+          "message": "Actually, I want to check my personal account balance."
+        },
+        {
+          "sender": "Agent",
+          "message": "No problem! Please provide your personal account number or answer a security question to verify your identity."
+        },
+        {
+          "sender": "Human",
+          "message": "I’ll do it later."
+        },
+        {
+          "sender": "Agent",
+          "message": "Alright, I’m here when you’re ready. Have a great day!"
+        }
+      ],
+      "ground_truth": "neutral"
+    },
+    {
+      "conversation_id": "conv_032",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "You’re the worst bank ever! My payment didn’t go through!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry for the trouble with your payment. Let’s resolve this. Please select an option:\n1. Check payment status\n2. Retry payment\n3. Speak with a human agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 3, I’m sick of this!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m transferring you to a human agent now. Please hold for a moment."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_033",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need to order checks."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can help with ordering checks. Please provide your account number and specify the quantity and style of checks you’d like."
+        },
+        {
+          "sender": "Human",
+          "message": "Account number 8899001122, 100 standard checks."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. Your order for 100 standard checks has been placed, and they’ll arrive within 10-14 business days. The cost of $15 will be deducted from your account. Anything else I can assist with?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, that’s it."
+        },
+        {
+          "sender": "Agent",
+          "message": "You’re all set! Have a great day!"
+        }
+      ],
+      "ground_truth": "positive"
+    },
+    {
+      "conversation_id": "conv_034",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I want to know about car loans."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can provide information on car loans. Please select an option:\n1. Learn about loan terms\n2. Check eligibility\n3. Speak with a loan officer"
+        },
+        {
+          "sender": "Human",
+          "message": "Actually, I want to report a lost card."
+        },
+        {
+          "sender": "Agent",
+          "message": "No problem. Please provide your account number and confirm if the card was lost or stolen."
+        },
+        {
+          "sender": "Human",
+          "message": "I changed my mind, I’ll call back."
+        },
+        {
+          "sender": "Agent",
+          "message": "Alright, I’m here when you’re ready. Have a great day!"
+        }
+      ],
+      "ground_truth": "neutral"
+    },
+    {
+      "conversation_id": "conv_035",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "Why is there a hold on my account? This is ridiculous!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry for the inconvenience. Let’s investigate the hold. Please select an option:\n1. Check hold details\n2. Request hold removal\n3. Speak with a human agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 3, I’m done with this bot!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m transferring you to a human agent now. Please hold for a moment."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_036",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need to set up direct deposit."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can help with setting up direct deposit. Please provide your account number and the employer’s payroll information."
+        },
+        {
+          "sender": "Human",
+          "message": "Account number 9900112233, my employer needs the bank’s routing number."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. Our bank’s routing number is 123456789. You can provide this along with your account number 9900112233 to your employer. Would you like instructions on completing the direct deposit form?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, I’m good."
+        },
+        {
+          "sender": "Agent",
+          "message": "Alright, you’re all set! Let me know if you need further assistance."
+        }
+      ],
+      "ground_truth": "positive"
+    },
+    {
+      "conversation_id": "conv_037",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I want to know about overdraft protection."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can provide information on overdraft protection. Please select an option:\n1. Learn about overdraft protection plans\n2. Enroll in overdraft protection\n3. Speak with a support agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Actually, I want to check my recent transactions."
+        },
+        {
+          "sender": "Agent",
+          "message": "No problem! Please provide your account number to view your recent transactions."
+        },
+        {
+          "sender": "Human",
+          "message": "I’ll do it online later."
+        },
+        {
+          "sender": "Agent",
+          "message": "Alright, let me know if you need help with online banking or anything else!"
+        }
+      ],
+      "ground_truth": "neutral"
+    },
+    {
+      "conversation_id": "conv_038",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "Your bank is horrible! My card was stolen, and you did nothing!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m very sorry to hear about your stolen card. Let’s address this immediately. Please select an option:\n1. Report stolen card\n2. Review recent transactions\n3. Speak with a fraud specialist"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 3, you’re useless!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m transferring you to a fraud specialist now. Please hold for a moment."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_039",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need to change my PIN."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can help with changing your PIN. Please provide your card number and verify your identity with a security question."
+        },
+        {
+          "sender": "Human",
+          "message": "Card number 1111-2222-3333-4444, security answer is ‘Rover’."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. Please enter your new 4-digit PIN now, and I’ll confirm it."
+        },
+        {
+          "sender": "Human",
+          "message": "New PIN is 5678."
+        },
+        {
+          "sender": "Agent",
+          "message": "Your PIN has been updated to 5678. Please use it for future transactions. Anything else I can assist with?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, that’s all."
+        },
+        {
+          "sender": "Agent",
+          "message": "You’re all set! Have a great day!"
+        }
+      ],
+      "ground_truth": "positive"
+    },
+    {
+      "conversation_id": "conv_040",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "Why is my loan payment late? I paid on time!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry for the confusion. Let’s check on your loan payment. Please select an option:\n1. Verify payment status\n2. Report a payment issue\n3. Speak with a loan specialist"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 3, this is ridiculous!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m transferring you to a loan specialist now. Please hold for a moment."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_041",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need to know my account number."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can help with that. Please verify your identity by providing your full name and answering a security question."
+        },
+        {
+          "sender": "Human",
+          "message": "Name is Sarah Johnson, security answer is ‘Maple’."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you, Sarah. Your account number is 1231231234. Would you like me to send it to your registered email for reference?"
+        },
+        {
+          "sender": "Human",
+          "message": "Yes, please."
+        },
+        {
+          "sender": "Agent",
+          "message": "I’ve sent your account number to your registered email. Anything else I can assist with?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, thanks."
+        },
+        {
+          "sender": "Agent",
+          "message": "You’re welcome! Have a great day!"
+        }
+      ],
+      "ground_truth": "positive"
+    },
+    {
+      "conversation_id": "conv_042",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I want to refinance my mortgage."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can provide information on refinancing your mortgage. Please select an option:\n1. Learn about refinancing options\n2. Check eligibility\n3. Speak with a mortgage specialist"
+        },
+        {
+          "sender": "Human",
+          "message": "Actually, I want to check my credit card balance."
+        },
+        {
+          "sender": "Agent",
+          "message": "No problem! Please provide your credit card number to check your balance."
+        },
+        {
+          "sender": "Human",
+          "message": "I’ll do it later."
+        },
+        {
+          "sender": "Agent",
+          "message": "Alright, I’m here when you’re ready. Have a great day!"
+        }
+      ],
+      "ground_truth": "neutral"
+    },
+    {
+      "conversation_id": "conv_043",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "You charged me twice for the same transaction! Fix it!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry for the inconvenience. Let’s resolve this. Please select an option:\n1. Report a duplicate transaction\n2. View recent transactions\n3. Speak with a human agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 1."
+        },
+        {
+          "sender": "Agent",
+          "message": "Please provide the transaction date, amount, and merchant name for the duplicate charge."
+        },
+        {
+          "sender": "Human",
+          "message": "July 13th, $75, at XYZ Store."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. I’ve identified the duplicate $75 charge from XYZ Store on July 13th. I’ve issued a refund, which will reflect in your account within 48 hours. Would you like to review other transactions?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, just make sure it doesn’t happen again."
+        },
+        {
+          "sender": "Agent",
+          "message": "I’ve noted your account to monitor for similar issues. Let me know if you need further assistance."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_044",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need to speak to someone about fraud on my account!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry to hear about the issue. I’m transferring you to a fraud specialist now. Please hold for a moment."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_045",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need to set up a recurring transfer."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can help with setting up a recurring transfer. Please provide your account number, the recipient’s account details, the amount, and the frequency of the transfer."
+        },
+        {
+          "sender": "Human",
+          "message": "Account number 2345678901, transfer $100 monthly to account 3456789012."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. I’ve set up a recurring monthly transfer of $100 from account 2345678901 to account 3456789012, starting next month. You’ll receive a confirmation email. Anything else I can assist with?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, that’s all."
+        },
+        {
+          "sender": "Agent",
+          "message": "You’re all set! Have a great day!"
+        }
+      ],
+      "ground_truth": "positive"
+    },
+    {
+      "conversation_id": "conv_046",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "Why is my card not working? This is so frustrating!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry for the trouble with your card. Let’s resolve this. Please select an option:\n1. Check card status\n2. Report a card issue\n3. Speak with a human agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 3, I’m tired of this!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m transferring you to a human agent now. Please hold for a moment."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_047",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need to know about student loans."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can provide information on student loans. Please select an option:\n1. Learn about loan options\n2. Check eligibility\n3. Speak with a loan officer"
+        },
+        {
+          "sender": "Human",
+          "message": "Actually, I want to check my savings balance."
+        },
+        {
+          "sender": "Agent",
+          "message": "No problem! Please provide your savings account number to check your balance."
+        },
+        {
+          "sender": "Human",
+          "message": "I’ll check it myself later."
+        },
+        {
+          "sender": "Agent",
+          "message": "Alright, I’m here when you need me. Have a great day!"
+        }
+      ],
+      "ground_truth": "neutral"
+    },
+    {
+      "conversation_id": "conv_048",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "You’re ripping me off with these fees!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry you’re upset about the fees. Let’s review them. Please select an option:\n1. View recent fees\n2. Dispute a fee\n3. Speak with a human agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 2."
+        },
+        {
+          "sender": "Agent",
+          "message": "Please provide your account number and the date of the fee you’d like to dispute."
+        },
+        {
+          "sender": "Human",
+          "message": "Account number 4567890123, fee on July 11th."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. The fee on July 11th was a $10 ATM withdrawal fee. I’ve waived it as a courtesy, and the refund will reflect in your account within 48 hours. Would you like to explore fee-free account options?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, just stop charging me!"
+        },
+        {
+          "sender": "Agent",
+          "message": "I’ve noted your account to avoid similar fees. Let me know if you need further assistance."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_049",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need to close my account."
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m sorry to hear you want to close your account. Please select an option:\n1. Start the closure process\n2. Learn about closure requirements\n3. Speak with a human agent"
+        },
+        {
+          "sender": "Human",
+          "message": "Option 3."
+        },
+        {
+          "sender": "Agent",
+          "message": "I’m transferring you to a human agent now. Please hold for a moment."
+        }
+      ],
+      "ground_truth": "negative"
+    },
+    {
+      "conversation_id": "conv_050",
+      "conversations": [
+        {
+          "sender": "Human",
+          "message": "I need to update my email address."
+        },
+        {
+          "sender": "Agent",
+          "message": "I can help with that. Please provide your account number and the new email address."
+        },
+        {
+          "sender": "Human",
+          "message": "Account number 5678901234, new email is mary.jones@example.com."
+        },
+        {
+          "sender": "Agent",
+          "message": "Thank you. Your email has been updated to mary.jones@example.com. You’ll receive a confirmation email shortly. Anything else I can assist with?"
+        },
+        {
+          "sender": "Human",
+          "message": "No, that’s all."
+        },
+        {
+          "sender": "Agent",
+          "message": "You’re all set! Have a great day!"
+        }
+      ],
+      "ground_truth": "positive"
+    }
+  ]
+}
